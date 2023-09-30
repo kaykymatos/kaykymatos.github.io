@@ -1,0 +1,95 @@
+.svgs-skills img {
+  width: 20vh;
+}
+
+.project-imgs img {
+  border-radius: 2em;
+  margin-right: 1em;
+}
+
+.download-button-min {
+  display: none;
+}
+
+.img-project-min {
+  display: none;
+}
+
+.img-project-normal {
+  display: block;
+}
+#contact{
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+.nav-links-navbar a{
+  font-weight: 500;
+}
+a{
+  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+.icon-with-gradient {
+  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section {
+  margin-left: 7em;
+  margin-right: 7em;
+}
+.profile-img{
+  width: 30vw !important;
+}
+@media (max-width: 750px) {
+  p {
+    font-size: 3vh !important;
+  }
+  .svgs-skills img {
+    width: 25vh;
+  }
+.profile-img{
+  width: 70vw !important;
+}
+  section {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .card {
+    margin-left: 1.1em !important;
+    margin-right: 1.1em !important;
+  }
+
+  .card-body-padding {
+    padding: 1em !important;
+  }
+
+  .resume-button {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+
+  .projects-button {
+
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+
+  .img-project-min {
+    display: block;
+  }
+
+  .img-project-normal {
+    display: none;
+  }
+
+  .padding-page {
+    padding-right: 1em !important;
+    padding-left: 1em !important;
+  }
+}
