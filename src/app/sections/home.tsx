@@ -36,7 +36,7 @@ export default function HomeSetion(){
                             <div className="d-flex justify-content-center mt-5 mt-xxl-0">
                                 <div className="profile bg-gradient-primary-to-secondary">
 
-                                <Image className='profile-img' unoptimized src={Profile} alt="Kayky"/>
+                                <Image className='profile-img' src={Profile} alt="Kayky"/>
                                     <div className="dots-1">
                                         <svg {...svgAttributes} >
                                             <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">

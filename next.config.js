@@ -2,7 +2,10 @@
 const nextConfig = {
     basePath: '',
     output: 'export', // Ou 'exports-only' se você quiser apenas as páginas exportadas
-    compress:true,
+    compress:true, 
+     images: {
+        unoptimized: true
+    }
 }
 
 module.exports = nextConfig

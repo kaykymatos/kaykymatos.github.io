@@ -14,7 +14,7 @@ export default function ProjetosSection(){
                         <div className="d-flex align-items-center">
                             <div className="p-5">
                                 <h2 className="fw-bolder">E-ESTOCK</h2>
-                            <Image unoptimized className="img-fluid img-project-min" src={TCC} alt="E-ESTOCK" />
+                            <Image  className="img-fluid img-project-min" src={TCC} alt="E-ESTOCK" />
 
                                 <p>Projeto criado durante o curso de análise e desenvolvimento de sistemas, o
                                     projeto se trata de uma implementação utilizando ASP.NET com o modelo de
@@ -27,7 +27,7 @@ export default function ProjetosSection(){
                                     gerenciar suas atividades comerciais de forma eficiente.
                                 </p>
                             </div>
-                            <Image unoptimized className="img-fluid img-project-normal" src={TCC} alt="E-ESTOCK" />
+                            <Image  className="img-fluid img-project-normal" src={TCC} alt="E-ESTOCK" />
                         </div>
                     </div>
                 </div>

@@ -3,7 +3,7 @@ import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 
 export default function NavBar() {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" className="sticky-top " expand="lg">
             <Container>
                 <Navbar.Brand href="#home">Kayky Matos Santana</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
