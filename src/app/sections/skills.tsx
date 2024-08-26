@@ -34,17 +34,17 @@ export default function SkillsSection() {
               </div>
               <div className="col">
                 <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                Resolução de Problemas
+                  Resolução de Problemas
                 </div>
               </div>
               <div className="col">
                 <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                Comunicação
+                  Comunicação
                 </div>
               </div>
               <div className="col">
                 <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                Trabalho em Equipe
+                  Trabalho em Equipe
                 </div>
               </div>
             </div>

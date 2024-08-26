@@ -21,17 +21,29 @@ export default function ContatoSection() {
               </p>
 
               <div className="d-flex justify-content-center mb-4">
-                        <Link style={styleLinks} className='mx-3' href="#home">Home</Link>
-                        <Link style={styleLinks} className='mx-3'href="#howAmI">Quem sou</Link>
-                        <Link style={styleLinks} className='mx-3'href="#experience">Experiência</Link>
-                        <Link style={styleLinks} className='mx-3'href="#projects">Projetos</Link>
-                        <Link style={styleLinks} className='mx-3'href="#education">Formação</Link>
-                        <Link style={styleLinks} className='mx-3'href="#skills">Skills</Link>
-                        <Link style={styleLinks} className='mx-3'href="#contact">Contato</Link>
-
+                <Link style={styleLinks} className="mx-3" href="#home">
+                  Home
+                </Link>
+                <Link style={styleLinks} className="mx-3" href="#howAmI">
+                  Quem sou
+                </Link>
+                <Link style={styleLinks} className="mx-3" href="#experience">
+                  Experiência
+                </Link>
+                <Link style={styleLinks} className="mx-3" href="#projects">
+                  Projetos
+                </Link>
+                <Link style={styleLinks} className="mx-3" href="#education">
+                  Formação
+                </Link>
+                <Link style={styleLinks} className="mx-3" href="#skills">
+                  Skills
+                </Link>
+                <Link style={styleLinks} className="mx-3" href="#contact">
+                  Contato
+                </Link>
               </div>
 
-              {/* Redes Sociais */}
               <div className="d-flex justify-content-center fs-2 gap-4 social-icons">
                 <Link
                   href="https://www.linkedin.com/in/kayky-matos-santana-0911991a6/"

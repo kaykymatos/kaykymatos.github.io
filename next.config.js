@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     basePath: '',
-    output: 'export', // Ou 'exports-only' se você quiser apenas as páginas exportadas
+    output: 'export', 
     compress:true, 
      images: {
         unoptimized: true

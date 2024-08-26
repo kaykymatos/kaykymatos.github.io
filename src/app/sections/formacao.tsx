@@ -1,13 +1,11 @@
 export default function FormacaoSection() {
   return (
     <section id="education">
-        <div className="text-center mb-3">
+      <div className="text-center mb-3">
         <h1 className="display-5 fw-bolder text-secondary mb-0">
           <span className="titulos d-inline">Formação</span>
         </h1>
       </div>
-
-      
 
       <div className="card shadow border-0 rounded-4 mb-5">
         <div className="card-body card-body-padding ">
