@@ -6,7 +6,34 @@
   border-radius: 2em;
   margin-right: 1em;
 }
-
+.citacao::before {
+  position: relative;
+  right: 2em;
+  content: '';
+  display: block;
+  width: 28px;
+  top:1em;
+  height: 24px;
+  background: url(../assets/aspas.png) no-repeat;
+}
+.citacao::after {
+  bottom: -2.5em;
+  position: absolute;
+  content: '';
+  display: block;
+  width: 28px;
+  height: 24px;
+  background: url(../assets/aspas2.png) no-repeat;
+  left: 11em !important;
+}
+.circled-text {
+  color: white; /* Cor interna do texto */
+  text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; /* Cria a borda preta */
+}
 .download-button-min {
   display: none;
 }
@@ -28,9 +55,7 @@
   font-weight: 500;
 }
 a{
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+  color: #1976D2 !important;
 }
 .icon-with-gradient {
   background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);

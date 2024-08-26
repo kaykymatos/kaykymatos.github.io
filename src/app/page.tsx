@@ -14,14 +14,12 @@ export default function Home() {
   <div className="container px-5 padding-page pb-5"></div>
   
   <HomeSetion/>
-    <SobreSection/>
     <ExperienciaSection/>
     
     <ProjetosSection/>
 
     <FormacaoSection/>
     <SkillsSection/>
-    <InteressesSection/>
     </header>
     <ContatoSection/>
     </>

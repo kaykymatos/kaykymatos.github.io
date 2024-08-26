@@ -3,20 +3,19 @@ import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 
 export default function NavBar() {
     return (
-        <Navbar bg="light" className="sticky-top " expand="lg">
+        <Navbar style={{ backgroundColor:'transparent', border:'none',boxShadow: 'none'}}  expand="lg">
             <Container>
-                <Navbar.Brand href="#home">Kayky Matos Santana</Navbar.Brand>
+               
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav style={{marginLeft: "25vw"}} className="nav-links-navbar">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#about">Sobre</Nav.Link>
-                        <Nav.Link href="#experience">Experiência</Nav.Link>
-                        <Nav.Link href="#projects">Projetos</Nav.Link>
-                        <Nav.Link href="#education">Formação</Nav.Link>
-                        <Nav.Link href="#skills">Skills</Nav.Link>
-                        <Nav.Link href="#interests">Interesses</Nav.Link>
-                        <Nav.Link href="#contact">Cotato</Nav.Link>
+                <Navbar.Collapse id="basic-navbar-nav" style={{placeContent:'center'}}>
+                    <Nav style={{fontSize:'1.5em',justifyContent: 'space-between'}} className="nav-links-navbar">
+                        <Nav.Link className='link-hover' href="#home">Home</Nav.Link>
+                        <Nav.Link className='link-hover'href="#howAmI">Quem sou</Nav.Link>
+                        <Nav.Link className='link-hover'href="#experience">Experiência</Nav.Link>
+                        <Nav.Link className='link-hover'href="#projects">Projetos</Nav.Link>
+                        <Nav.Link className='link-hover'href="#education">Formação</Nav.Link>
+                        <Nav.Link className='link-hover'href="#skills">Skills</Nav.Link>
+                        <Nav.Link className='link-hover'href="#contact">Contato</Nav.Link>
 
                     </Nav>
                 </Navbar.Collapse>
