@@ -9,13 +9,12 @@ export default function Home() {
   return (
     <>
       <header className="py-5">
-        <div className="container px-5 padding-page pb-5"></div>
         <HomeSetion />
-        <ExperienciaSection />
-        <ProjetosSection />
-        <FormacaoSection />
-        <SkillsSection />
       </header>
+      <ExperienciaSection />
+      <ProjetosSection />
+      <FormacaoSection />
+      <SkillsSection />
       <ContatoSection />
     </>
   );
