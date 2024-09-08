@@ -14,9 +14,7 @@
   width: 28px;
   top:1em;
   height: 24px;
-  background: url(../assets/aspas.png) no-repeat;
 }
-
 .citacao::after {
   bottom: -2.5em;
   position: absolute;
@@ -24,7 +22,6 @@
   display: block;
   width: 28px;
   height: 24px;
-  background: url(../assets/aspas2.png) no-repeat;
   left: 11em !important;
 }
 .circled-text {
@@ -117,42 +114,5 @@ section {
   .padding-page {
     padding-right: 1em !important;
     padding-left: 1em !important;
-  }
-}
-
-section.home-about-us .quote .label {
-  color: #c4343c;
-  letter-spacing: 4px;
-}
-
-section.home-about-us .quote .content {
-  position: relative;
-}
-section.home-about-us .quote .author {
-  color: #c4343c;
-  text-align: right;
-  letter-spacing: 4px;
-}
-section.home-about-us h2 {
-  color: #c4343c;
-  text-transform: none;
-}
-.marginExperience{
-  margin-top: 7rem;
-}
-@media only screen and (max-width: 600px) {
-  .divThumb{
-    display:none
-  }
-  .marginExperience{
-    margin-top: 0;
-  }
-}
-@media only screen and (max-width: 400px) {
-  .divThumb{
-    display:none
-  }
-  .marginExperience{
-    margin-top: 0;
   }
 }

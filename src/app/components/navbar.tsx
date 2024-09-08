@@ -6,7 +6,7 @@ export default function NavBar() {
         <Navbar style={{ backgroundColor:'transparent', border:'none',boxShadow: 'none'}}  expand="lg">
             <Container>
                
-                <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ color:"white", backgroundColor:"currentcolor"}} />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" style={{placeContent:'center'}}>
                     <Nav style={{fontSize:'1.5em',justifyContent: 'space-between'}} className="nav-links-navbar">
                         <Nav.Link className='link-hover' href="#home">Home</Nav.Link>

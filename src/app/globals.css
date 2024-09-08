@@ -95,6 +95,7 @@ body {
   background-repeat: no-repeat;
     background-image: url('./assets/background.png');
     background-size: cover;
+    width: 100%;
 
   margin: 0;
   font-family: var(--bs-body-font-family);
