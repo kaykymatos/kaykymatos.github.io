@@ -9,7 +9,8 @@ export default function ContatoSection() {
     fontSize: "1.5em",
   };
   return (
-    <footer id="contact" className="bg-light py-5">
+    
+    <footer id="contact" className=" py-5">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10 text-center">
@@ -222,9 +223,6 @@ export default function ContatoSection() {
             </form>
           </div>
 
-          <p className="text-muted small mt-4 text-center">
-            © 2024 Kayky Matos Santana. Todos os direitos reservados.
-          </p>
         </div>
       </div>
     </footer>

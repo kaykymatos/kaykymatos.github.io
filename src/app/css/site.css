@@ -2,23 +2,35 @@
   width: 20vh;
 }
 
+.card-body-div {
+  background-color: "#121212";
+  color: "#E0E0E0";
+  border: "1px solid #1C1C1C";
+}
+.card-div {
+  background-color: #161616 !important;
+  color: #e0e0e0 !important;
+}
 .project-imgs img {
-  border-radius: 2em;
   margin-right: 1em;
+}
+.project-text {
+  font-size: 14px;
 }
 .citacao::before {
   position: relative;
   right: 2em;
-  content: '';
+  content: "";
   display: block;
   width: 28px;
-  top:1em;
+  top: 1em;
   height: 24px;
 }
+
 .citacao::after {
   bottom: -2.5em;
   position: absolute;
-  content: '';
+  content: "";
   display: block;
   width: 28px;
   height: 24px;
@@ -26,10 +38,7 @@
 }
 .circled-text {
   color: white; /* Cor interna do texto */
-  text-shadow:
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000; /* Cria a borda preta */
 }
 .download-button-min {
@@ -43,29 +52,32 @@
 .img-project-normal {
   display: block;
 }
-#contact{
+#contact {
   padding-left: 0;
   padding-right: 0;
   margin-right: 0;
   margin-left: 0;
 }
-.nav-links-navbar a{
+.nav-links-navbar a {
   font-weight: 500;
 }
-a{
-  color: #1976D2 !important;
+a {
+  color: #1976d2 !important;
 }
 .icon-with-gradient {
   background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 section {
   margin-left: 7em;
-  margin-right: 7em;
+  margin-right: 7em; /* Bordas */
 }
-.profile-img{
+
+footer {
+  background-color: #161515;
+}
+.profile-img {
   width: 30vw !important;
 }
 @media (max-width: 750px) {
@@ -75,18 +87,14 @@ section {
   .svgs-skills img {
     width: 25vh;
   }
-.profile-img{
-  width: 70vw !important;
-}
+  .profile-img {
+    width: 70vw !important;
+  }
   section {
     margin-left: 0;
     margin-right: 0;
   }
 
-  .card {
-    margin-left: 1.1em !important;
-    margin-right: 1.1em !important;
-  }
 
   .card-body-padding {
     padding: 1em !important;
@@ -98,7 +106,6 @@ section {
   }
 
   .projects-button {
-
     margin-left: 5em;
     margin-right: 5em;
   }

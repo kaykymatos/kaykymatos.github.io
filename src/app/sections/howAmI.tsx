@@ -6,17 +6,19 @@ export default function HowAmI() {
           <span className="titulos d-inline">Quem sou?</span>
         </h1>
       </div>
-      <div className="card shadow border-0 rounded-4 mb-5">
+      <div
+        className="card shadow border-0 rounded-4 mb-5 card-div"
+      >
         <div className="card-body card-body-padding">
           <div className="row align-items-center gx-5">
-            
             <div className="col-lg-12">
               <p>
-                Sou um desenvolvedor de software, especializado em C# e .NET. Tenho conhecimento em
-                Angular, React, e TypeScript, com foco em construir aplicações
-                robustas e eficientes. Ao longo da minha carreira, participei de
-                projetos variados, onde pude aplicar minhas habilidades para
-                desenvolver soluções escaláveis e de alto desempenho.&nbsp;
+                Sou um desenvolvedor de software, especializado em C# e .NET.
+                Tenho conhecimento em Angular, React, e TypeScript, com foco em
+                construir aplicações robustas e eficientes. Ao longo da minha
+                carreira, participei de projetos variados, onde pude aplicar
+                minhas habilidades para desenvolver soluções escaláveis e de
+                alto desempenho.&nbsp;
               </p>
 
               <p>

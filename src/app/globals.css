@@ -91,22 +91,69 @@
   }
 }
 
+
+h1, h2, h3, h4 {
+  color: #FFFFFF; /* Cabeçalhos e Títulos */
+}
+
+a {
+  color: #BB86FC; /* Links */
+}
+
+button {
+  background-color: #BB86FC; /* Botões */
+  color: #FFFFFF; /* Texto do Botão */
+}
+
+
+
+.card {
+  background-color: #1E1E1E; /* Cartões ou caixas de conteúdo */
+  color: #E0E0E0; /* Texto nos cartões */
+}
+
+
 body {
   background-repeat: no-repeat;
-    background-image: url('./assets/background.png');
-    background-size: cover;
-    width: 100%;
+  background-image: url('./assets/background.png');
+  background-size: cover;
+  width: 100%;
+  height: 70%;
 
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
+  color: #E0E0E0;
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #222222;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+h1, h2, h3, h4 {
+  color: #FFFFFF; /* Cabeçalhos e Títulos */
+}
+
+a {
+  color: #BB86FC; /* Links */
+}
+
+button {
+  background-color: #BB86FC; /* Botões */
+  color: #FFFFFF; /* Texto do Botão */
+}
+
+
+.card {
+  background-color: #1E1E1E; /* Fundo do card */
+    color: #E0E0E0; /* Texto dentro do card */
+    border: 1px solid #1C1C1C; /* Borda do card */
+    
+}
+
+.card p {
+  color: #E0E0E0; /* Texto do parágrafo no card */
 }
 
 hr {

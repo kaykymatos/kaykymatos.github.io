@@ -6,11 +6,14 @@ export default function ExperienciaSection() {
           <span className="titulos d-inline">Experiência</span>
         </h1>
       </div>
-      <div className="card shadow border-0 rounded-4 mb-5">
+      <div className="card shadow border-0 rounded-4 mb-5 card-div">
         <div className="card-body card-body-padding">
           <div className="row align-items-center gx-5">
             <div className="col text-center text-lg-start mb-4 mb-lg-0">
-              <div className="bg-light p-4 rounded-4">
+              <div className="p-4 rounded-4"  style={{
+                  backgroundColor: "#121212", // Fundo da formação
+                  color: "#E0E0E0", // Texto da formação
+                }}>
                 <div className="text-primary fw-bolder mb-2">
                   2022 - Presente
                 </div>

@@ -6,7 +6,7 @@ import { Nav, Navbar } from "react-bootstrap";
 export default function HomeSetion() {
   
   return (
-    <section id="home" style={{marginBottom:'25em'}}>
+    <section id="home" style={{marginBottom:'25em', backgroundColor:"transparent"}}>
         
       <div className=" gx-5 align-items-center mt-5">
         <div className="col-xxl-5">

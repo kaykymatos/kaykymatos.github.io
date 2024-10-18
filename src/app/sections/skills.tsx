@@ -5,11 +5,20 @@ import * as Icon from "react-bootstrap-icons";
 export default function SkillsSection() {
   return (
     <section id="skills">
-      <div className="card shadow border-0 rounded-4 mb-5">
+      <div
+        className="card shadow border-0 rounded-4 mb-5 card-div"
+        style={{
+          backgroundColor: "#1E1E1E", // Fundo do card
+          color: "#E0E0E0", // Texto dentro do card
+        }}
+      >
         <div className="card-body card-body-padding">
           <div className="mb-5">
             <div className="d-flex align-items-center mb-4">
-              <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
+              <div
+                className="feature bg-gradient-primary-to-secondary text-white rounded-3 me-3"
+                style={{ backgroundColor: "#BB86FC" }} // Cor de destaque
+              >
                 <Icon.Tools />
               </div>
               <h3 className="fw-bolder mb-0">
@@ -18,39 +27,60 @@ export default function SkillsSection() {
             </div>
             <div className="row row-cols-1 row-cols-md-3 g-2 text-center mb-3">
               <div className="col">
-                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                <div
+                  className="d-flex align-items-center rounded-4 p-3 h-100 card-body-div"
+                  
+                >
                   Desenvolvimento front-end
                 </div>
               </div>
               <div className="col">
-                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                <div
+                  className="d-flex align-items-center rounded-4 p-3 h-100 card-body-div"
+                 
+                >
                   Desenvolvimento Back-end
                 </div>
               </div>
               <div className="col">
-                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                <div
+                  className="d-flex align-items-center rounded-4 p-3 h-100 card-body-div"
+                 
+                >
                   Banco de dados relacional
                 </div>
               </div>
               <div className="col">
-                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                Resolução de Problemas
+                <div
+                  className="d-flex align-items-center rounded-4 p-3 h-100 card-body-div"
+                
+                >
+                  Resolução de Problemas
                 </div>
               </div>
               <div className="col">
-                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                Comunicação
+                <div
+                  className="d-flex align-items-center rounded-4 p-3 h-100 card-body-div"
+                 
+                >
+                  Comunicação
                 </div>
               </div>
               <div className="col">
-                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                Trabalho em Equipe
+                <div
+                  className="d-flex align-items-center rounded-4 p-3 h-100 card-body-div"
+                
+                >
+                  Trabalho em Equipe
                 </div>
               </div>
             </div>
 
             <div className="d-flex align-items-center mb-4">
-              <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
+              <div
+                className="feature bg-gradient-primary-to-secondary text-white rounded-3 me-3"
+                style={{ backgroundColor: "#BB86FC" }} // Cor de destaque
+              >
                 <Icon.CodeSlash />
               </div>
               <h3 className="fw-bolder mb-0">

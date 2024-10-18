@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} d-flex flex-column h-100` }style={{backgroundColor:'#F4F4F9'}}>
+      <body className={`${inter.className} d-flex flex-column h-100` }>
         <main className='flex-shrink-0'>
           <NavBar />
 

@@ -1,20 +1,33 @@
 export default function FormacaoSection() {
   return (
     <section id="education">
-        <div className="text-center mb-3">
-        <h1 className="display-5 fw-bolder text-secondary mb-0">
+      <div className="text-center mb-3">
+        <h1 className="display-5 fw-bolder mb-0" style={{ color: "#BB86FC" }}>
           <span className="titulos d-inline">Formação</span>
         </h1>
       </div>
 
-      
-
-      <div className="card shadow border-0 rounded-4 mb-5">
-        <div className="card-body card-body-padding ">
+      {/* Primeira Formação */}
+      <div
+        className="card shadow border-0 rounded-4 mb-5 card-div"
+        style={{
+          backgroundColor: "#1E1E1E", // Fundo do card
+          color: "#E0E0E0", // Texto do card
+        }}
+      >
+        <div className="card-body card-body-padding">
           <div className="row align-items-center gx-5">
             <div className="col text-center text-lg-start mb-4 mb-lg-0">
-              <div className="bg-light p-4 rounded-4">
-                <div className="text-secondary fw-bolder mb-2">2020 - 2021</div>
+              <div
+                className="p-4 rounded-4"
+                style={{
+                  backgroundColor: "#121212", // Fundo da formação
+                  color: "#E0E0E0", // Texto da formação
+                }}
+              >
+                <div className="fw-bolder mb-2" style={{ color: "#BB86FC" }}>
+                  2020 - 2021
+                </div>
                 <div className="mb-2">
                   <div className="small fw-bolder">Etec Martinho Di Ciero</div>
                   <div className="small text-muted">Itu, SP</div>
@@ -40,12 +53,26 @@ export default function FormacaoSection() {
           </div>
         </div>
       </div>
-      <div className="card shadow border-0 rounded-4 mb-5">
-        <div className="card-body card-body-padding ">
+
+      {/* Segunda Formação */}
+      <div
+        className="card shadow border-0 rounded-4 mb-5 card-div"
+        style={{
+          backgroundColor: "#1E1E1E",
+          color: "#E0E0E0",
+        }}
+      >
+        <div className="card-body card-body-padding">
           <div className="row align-items-center gx-5">
             <div className="col text-center text-lg-start mb-4 mb-lg-0">
-              <div className="bg-light p-4 rounded-4">
-                <div className="text-secondary fw-bolder mb-2">
+              <div
+                className="p-4 rounded-4"
+                style={{
+                  backgroundColor: "#121212",
+                  color: "#E0E0E0",
+                }}
+              >
+                <div className="fw-bolder mb-2" style={{ color: "#BB86FC" }}>
                   2023 - Em andamento...
                 </div>
                 <div className="mb-2">
