@@ -3,19 +3,17 @@
 }
 
 .card-body-div {
-  background-color: "#121212";
-  color: "#E0E0E0";
-  border: "1px solid #1C1C1C";
+  background-color: #121212;
+  color: #E0E0E0;
+  border: 1px solid #1C1C1C;
 }
 .card-div {
   background-color: #161616 !important;
   color: #e0e0e0 !important;
 }
-.project-imgs img {
-  margin-right: 1em;
-}
 .project-text {
   font-size: 14px;
+  text-align: justify;
 }
 .citacao::before {
   position: relative;
@@ -80,7 +78,23 @@ footer {
 .profile-img {
   width: 30vw !important;
 }
+.projects-div{
+  width: 20% !important;
+}
 @media (max-width: 750px) {
+  .section-how-am-i{
+    padding-top: 10em;
+  }
+  
+  /* Customiza o botão hamburger */
+.custom-toggler {
+  border-color: white; /* Borda do botão */
+}
+.projects-div{width: 90% !important;}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
   p {
     font-size: 3vh !important;
   }

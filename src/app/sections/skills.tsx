@@ -128,8 +128,10 @@ export default function SkillsSection() {
               <div className="col">
                 <Image
                   width={130}
+                  
                   height={130}
-                  src="https://img.icons8.com/ios-glyphs/130/github.png"
+                  src="https://img.icons8.com/fluency/130/github.png
+"
                   alt="GitHub"
                 />
                 <p className="mt-1">GitHub</p>

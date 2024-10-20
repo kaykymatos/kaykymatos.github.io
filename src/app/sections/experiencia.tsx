@@ -6,7 +6,7 @@ export default function ExperienciaSection() {
           <span className="titulos d-inline">Experiência</span>
         </h1>
       </div>
-      <div className="card shadow border-0 rounded-4 mb-5 card-div">
+      <div className="card shadow border-0 rounded-4 mb-5 card-div ">
         <div className="card-body card-body-padding">
           <div className="row align-items-center gx-5">
             <div className="col text-center text-lg-start mb-4 mb-lg-0">

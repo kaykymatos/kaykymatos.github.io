@@ -1,6 +1,6 @@
 export default function HowAmI() {
   return (
-    <section id="howAmI">
+    <section id="howAmI" className="section-how-am-i">
       <div className="text-center mb-3">
         <h1 className="display-5 fw-bolder mb-0">
           <span className="titulos d-inline">Quem sou?</span>

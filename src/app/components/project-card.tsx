@@ -6,7 +6,7 @@ export interface IProject {
   imageSrc: StaticImport;
   description: string;
   title: string;
-  repoLink: string|null;
+  repoLink: string | null;
 }
 
 export default function ProjectCard(project: IProject) {
@@ -55,14 +55,18 @@ export default function ProjectCard(project: IProject) {
 
   return (
     <div
-      className="card col-md-3 col-lg-3 col-xl-3 col-11 col-xs-11 col-sm-11 mx-1 mb-4"
+      className="col mx-2 p-2 projects-div mb-3"
       style={{
+        borderRadius: "10%",minHeight:"350px",
         backgroundColor: "#121212",
         color: "#E0E0E0",
       }}
     >
       <Image
-        className="card-img-top img-fluid"
+        style={{
+          borderRadius: "10%",
+        }}
+        className="card-img-top img-fluid mb-2"
         src={project.imageSrc}
         width={200}
         alt={project.title}
@@ -72,7 +76,7 @@ export default function ProjectCard(project: IProject) {
         <h5 className="card-title">{project.title}</h5>
 
         <div
-          className="card-text project-text"
+          className="card-text  p-2"
           style={{
             maxHeight: height,
             overflow: "hidden",
@@ -110,8 +114,8 @@ export default function ProjectCard(project: IProject) {
         )}
         <br />
         <a
-        hidden={project.repoLink?false:true}
-          href={project.repoLink?project.repoLink:""}
+          hidden={project.repoLink ? false : true}
+          href={project.repoLink ? project.repoLink : ""}
           target="_blank"
           className="btn btn-primary text-white mt-2"
         >

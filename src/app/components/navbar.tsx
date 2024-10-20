@@ -1,12 +1,12 @@
 'use client'
-import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 
 export default function NavBar() {
     return (
         <Navbar style={{ backgroundColor:'transparent', border:'none',boxShadow: 'none'}}  expand="lg">
             <Container>
                
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler"/>
                 <Navbar.Collapse id="basic-navbar-nav" style={{placeContent:'center'}}>
                     <Nav style={{fontSize:'1.5em',justifyContent: 'space-between'}} className="nav-links-navbar">
                         <Nav.Link className='link-hover' href="#home">Home</Nav.Link>
