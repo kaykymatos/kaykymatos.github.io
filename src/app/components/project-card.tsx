@@ -6,7 +6,8 @@ export interface IProject {
   imageSrc: StaticImport;
   description: string;
   title: string;
-  repoLink: string | null;
+  buttonText:string;
+  link: string | null;
 }
 
 export default function ProjectCard(project: IProject) {
@@ -114,12 +115,12 @@ export default function ProjectCard(project: IProject) {
         )}
         <br />
         <a
-          hidden={project.repoLink ? false : true}
-          href={project.repoLink ? project.repoLink : ""}
+          hidden={project.link ? false : true}
+          href={project.link ? project.link : ""}
           target="_blank"
           className="btn btn-primary text-white mt-2"
         >
-          Código fonte
+         {project.buttonText}
         </a>
       </div>
     </div>
