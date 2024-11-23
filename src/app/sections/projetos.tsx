@@ -14,6 +14,7 @@ export default function ProjetosSection() {
         "Projeto criado durante o curso de análise e desenvolvimento de sistemas, utilizando ASP.NET com arquitetura MVC e Bootstrap.",
       imageSrc: TCC,
       link: "https://github.com/kaykymatos/TCC",
+      imagePosition:'left'
     },
     {
       title: "Simulinvest",
@@ -22,6 +23,7 @@ export default function ProjetosSection() {
         "O SimuleInvest é um simulador de investimentos em Angular que permite ao usuário calcular e visualizar facilmente a evolução de investimentos, inserindo parâmetros como valor inicial, aporte mensal, taxa de juros e duração. A ferramenta, com interface intuitiva, foi implantada na plataforma Render.",
       imageSrc: SimulInvest,
       link: "https://simuleinvest.onrender.com/",
+      imagePosition:'right'
     },
     {
       title: "EM BREVE",
@@ -29,6 +31,7 @@ export default function ProjetosSection() {
       description: "Em breve",
       imageSrc: EM_BREVE,
       link: null,
+      imagePosition:'left'
     },
     {
       title: "EM BREVE",
@@ -36,6 +39,7 @@ export default function ProjetosSection() {
       description: "Em breve",
       imageSrc: EM_BREVE,
       link: null,
+      imagePosition:'right'
     },
   ];
 
@@ -50,7 +54,6 @@ export default function ProjetosSection() {
         </h1>
       </div>
 
-      <div className="row row-cols-1 row-cols-md-5 text-center justify-content-center mb-5">
         {projectData.map((project, index) => (
           <ProjectCard
             key={index}
@@ -59,9 +62,9 @@ export default function ProjetosSection() {
             buttonText={project.buttonText}
             link={project.link}
             title={project.title}
+            imagePosition={project.imagePosition}
           />
         ))}
-      </div>
     </section>
   );
 }
