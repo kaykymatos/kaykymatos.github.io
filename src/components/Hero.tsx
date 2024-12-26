@@ -1,0 +1,60 @@
+import { Download, GithubIcon, Linkedin, Mail } from "lucide-react";
+
+export const Hero = () => {
+  return (
+    <section
+      id="sobre"
+      className="min-h-screen flex items-center justify-center"
+    >
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
+        <h1 className="text-4xl lg:text-6xl font-bold mb-6">
+          <span className="bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
+            Olá, eu sou
+          </span>
+          <br />
+          <span className="text-white">Kayky</span>
+        </h1>
+
+        <p className="text-gray-400 text-lg mb-8">
+          Desenvolvedor Full Stack com experiência no desenvolvimento de
+          soluções digitais inovadoras. Com habilidades em C#, ASP.NET Core,
+          Blazor, React, Angular e SQL Server, sou focado em criar aplicações
+          modernas e escaláveis, utilizando boas práticas de desenvolvimento
+          tanto no front-end quanto no back-end.
+        </p>
+
+        <div className="flex flex-wrap justify-center gap-4 mb-8">
+          {/* <a
+            href="#"
+            className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full hover:opacity-90 transition-opacity"
+          >
+            <Download size={20} />
+            Download CV
+          </a> */}
+
+          <div className="flex gap-4">
+            <a
+              href="https://github.com/kaykymatos" target="_blank"
+              className="p-3 rounded-full bg-gray-800 hover:bg-gray-700 transition-colors"
+            >
+              <GithubIcon size={20} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kayky-matos-santana-0911991a6/"
+                target="_blank"
+              className="p-3 rounded-full bg-gray-800 hover:bg-gray-700 transition-colors"
+            >
+              <Linkedin size={20} />
+            </a>
+            <a
+              href="mailto:kayky.m.santana@gmail.com"
+              className="p-3 rounded-full bg-gray-800 hover:bg-gray-700 transition-colors"
+            >
+              <Mail size={20} />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
