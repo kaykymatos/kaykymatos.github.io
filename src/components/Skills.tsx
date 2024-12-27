@@ -16,7 +16,7 @@ export const Skills = () => {
           {skillsData.map((category, index) => (
             <div
               key={index}
-              className="p-8 bg-gray-900/50 backdrop-blur-lg rounded-xl border border-gray-800 hover:border-purple-500 transition-colors"
+              className="p-8 dark:bg-gray-900/50 bg-gray-300 backdrop-blur-lg rounded-xl border border-gray-800 hover:border-purple-500 transition-colors"
             >
               <div className="flex items-center gap-3 mb-6">
                 {index < skillsData.length - 1 ? (
@@ -24,7 +24,7 @@ export const Skills = () => {
                 ) : (
                   <Users className="text-purple-500" size={24} />
                 )}
-                <h3 className="text-xl font-bold">{category.title}</h3>
+                <h3 className="text-xl font-bold text-dark">{category.title}</h3>
               </div>
               {category.skills.map((skill, skillIndex) => (
                 <SkillBar

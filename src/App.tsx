@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div
-      className={`min-h-screen bg-gradient-to-b from-gray-900 to-black text-white ${
+      className={`min-h-screen bg-gradient-to-b from-gray-200 to-white text-black dark:from-gray-900 dark:to-black dark:text-white  ${
         darkMode ? "dark" : ""
       }`}
     >

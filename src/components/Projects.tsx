@@ -50,18 +50,20 @@ export const Projects = () => {
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t dark:from-black/80 dark:via-black/50 from-white/80 dark:via-thite/50 to-transparent"></div>
               </div>
 
               <div className="absolute inset-0 p-6 flex flex-col justify-end">
                 <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
-                <p className="text-gray-300 mb-4">{project.description}</p>
+                <p className="dark:text-gray-300 text-dark mb-4">
+                  {project.description}
+                </p>
 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech, i) => (
                     <span
                       key={i}
-                      className="px-3 py-1 text-sm bg-blue-500/20 text-blue-400 rounded-full"
+                      className="px-3 py-1 text-sm dark:bg-blue-500/20 bg-blue-900/20 text-blue-900 dark:text-blue-400 rounded-full"
                     >
                       {tech}
                     </span>
@@ -73,7 +75,7 @@ export const Projects = () => {
                     <a
                       href={project.demo}
                       target="_blanck"
-                      className="flex items-center gap-2 px-4 py-2 bg-blue-500 rounded-lg hover:bg-blue-600 transition-colors"
+                      className="flex items-center gap-2 px-4 py-2 bg-blue-500 dark:bg-blue-500 rounded-lg hover:bg-blue-600 transition-colors "
                     >
                       <ExternalLink size={18} />
                       Demo
@@ -85,7 +87,7 @@ export const Projects = () => {
                     <a
                       href={project.github}
                       target="_blanck"
-                      className="flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors"
+                      className="flex items-center gap-2 px-4 py-2 dark:bg-gray-800 bg-gray-400 rounded-lg hover:bg-gray-700 transition-colors"
                     >
                       <GithubIcon size={18} />
                       Código

@@ -8,11 +8,11 @@ interface SkillBarProps {
 export const SkillBar = ({ name, level }: SkillBarProps) => (
   <div className="mb-6">
     <div className="flex justify-between mb-2">
-      <span className="text-gray-300 flex items-center">
-        <SkillIcon name={name} className="text-blue-400" />
+      <span className="dark:text-gray-300 flex items-center">
+        <SkillIcon name={name} className="dark:text-blue-400 text-blue-900" />
         {name}
       </span>
-      <span className="text-blue-400">{level}%</span>
+      <span className="dark:text-blue-400 text-blue-900">{level}%</span>
     </div>
     <div className="h-2 bg-gray-700 rounded-full overflow-hidden">
       <div

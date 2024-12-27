@@ -6,11 +6,6 @@
   color-scheme: dark;
 }
 
-.dark body {
-  background-color: #1a202c; /* Um tom de cinza escuro */
-  color: #f7fafc; /* Branco claro */
-}
-
 html {
   scroll-behavior: smooth;
 }

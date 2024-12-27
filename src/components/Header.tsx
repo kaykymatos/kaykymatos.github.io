@@ -39,7 +39,7 @@ export const Header = ({
   return (
     <header
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-black/80 backdrop-blur-md" : "bg-transparent"
+        isScrolled ? "dark:bg-black/80 bg-black/40 backdrop-blur-md" : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -53,14 +53,14 @@ export const Header = ({
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-gray-300 hover:text-blue-400 transition-colors"
+                className="dark:text-gray-300 text-dark hover:text-blue-400 transition-colors"
               >
                 {item.label}
               </button>
             ))}
             <button
               onClick={toggleDarkMode}
-              className="p-2 rounded-full hover:bg-gray-800 transition-colors"
+              className="p-2 rounded-full dark:hover:bg-gray-800 hover:bg-gray-500 transition-colors"
             >
               {darkMode ? <Sun size={20} /> : <Moon size={20} />}
             </button>
