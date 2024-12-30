@@ -47,7 +47,9 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Localização</h4>
-                  <p className="dark:text-gray-400 text-gray-800">São Paulo, SP - Brasil</p>
+                  <p className="dark:text-gray-400 text-gray-800">
+                    São Paulo, SP - Brasil
+                  </p>
                 </div>
               </div>
 
@@ -57,13 +59,19 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Email</h4>
-                  <p className="dark:text-gray-400 text-gray-800">kayky.m.santana@gmail.com</p>
+                  <p className="dark:text-gray-400 text-gray-800">
+                    kayky.m.santana@gmail.com
+                  </p>
                 </div>
               </div>
             </div>
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form
+            method="post"
+            action="https://api.staticforms.xyz/submit"
+            className="space-y-6"
+          >
             <div>
               <label
                 htmlFor="name"
@@ -116,7 +124,34 @@ export const Contact = () => {
                 className="w-full px-4 py-3 dark:bg-black/30 bg-white border border-gray-800 rounded-lg focus:outline-none focus:border-purple-500 transition-colors"
                 required
               ></textarea>
+              <input type="text" name="honeypot" style={{ display: "none" }} />
+              <input
+                type="hidden"
+                readOnly
+                name="accessKey"
+                value="9ccd2d43-6725-4574-bd74-59544c7ddb6c"
+              />
+              <input
+                type="hidden"
+                readOnly
+                name="subject"
+                value="Contact us from - example.com"
+              />
+              <input type="hidden" name="replyTo" value="@" />
+              <input
+                type="hidden"
+                readOnly
+                name="redirectTo"
+                value="https://kaykymatos.github.io/#contact"
+              />
 
+              <input
+                type="text"
+                name="$From"
+                readOnly
+                hidden
+                value="kaykymatos.github.io"
+              />
             </div>
 
             <button
