@@ -1,26 +1,22 @@
 import { Award, GraduationCap } from "lucide-react";
 
-const education = [{
-  type: "academic",
-  title: "Curso técnico de Análise e Desenvolvimento de Sistemas",
-  institution: "Etec Martinho Di Ciero",
-  period: "2020 - 2021",
-  description: "Formação abrangente em Análise e Desenvolvimento de Sistemas.",
- },
+const education = [
+  {
+    type: "academic",
+    title: "Curso técnico de Análise e Desenvolvimento de Sistemas",
+    institution: "Etec Martinho Di Ciero",
+    period: "2020 - 2021",
+    description:
+      "Formação abrangente em Análise e Desenvolvimento de Sistemas.",
+  },
   {
     type: "academic",
     title: "Graduação em Análise e Desenvolvimento de Sistemas",
     institution: "Centro Universitário Nossa Senhora do Patrocínio (CEUNSP)",
     period: "2023 - 2024",
-    description: "Formação abrangente em Análise e Desenvolvimento de Sistemas.",
-   },
-  // {
-  //   type: "certification",
-  //   title: "AWS Certified Solutions Architect",
-  //   institution: "Amazon Web Services",
-  //   period: "2023",
-  //   description: "Certificação profissional em arquitetura de soluções cloud",
-  // },
+    description:
+      "Formação abrangente em Análise e Desenvolvimento de Sistemas.",
+  },
 ];
 
 export const Education = () => {
@@ -45,11 +41,15 @@ export const Education = () => {
                 ) : (
                   <Award className="text-blue-500" size={24} />
                 )}
-                <span className="dark:text-gray-400 text-black">{item.period}</span>
+                <span className="dark:text-gray-400 text-black">
+                  {item.period}
+                </span>
               </div>
 
               <h3 className="text-xl font-bold mb-2">{item.title}</h3>
-              <p className="dark:text-purple-400 text-purple-900 mb-4">{item.institution}</p>
+              <p className="dark:text-purple-400 text-purple-900 mb-4">
+                {item.institution}
+              </p>
               <p className="dark:text-gray-400 text-dark">{item.description}</p>
             </div>
           ))}

@@ -8,12 +8,6 @@ export const Contact = () => {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Implement form submission logic here
-    console.log("Form submitted:", formData);
-  };
-
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -36,26 +30,27 @@ export const Contact = () => {
           <div>
             <h3 className="text-2xl font-bold mb-6">Vamos Conversar!</h3>
             <p className="dark:text-gray-400 text-dark mb-8">
-              Estou sempre aberto a novas oportunidades e parcerias
-              interessantes. Sinta-se à vontade para entrar em contato!
+              Estou sempre aberto a novas oportunidades. Sinta-se à vontade para entrar em contato!
             </p>
 
             <div className="space-y-6">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-blue-500/20 rounded-full flex items-center justify-center">
-                  <MapPin className="text-blue-400" />
+                 <a target="_blanck" href="https://www.google.com.br/maps/place/Itu,+SP/@-23.3251344,-47.4601737,11z/data=!3m1!4b1!4m6!3m5!1s0x94cf5b325a970985:0xee86064475a064!8m2!3d-23.2636895!4d-47.3011001!16s%2Fg%2F1pxymql39?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D0">
+                 <MapPin className="text-blue-400" style={{cursor:"pointer"}} />
+                 </a> 
                 </div>
                 <div>
                   <h4 className="font-semibold">Localização</h4>
                   <p className="dark:text-gray-400 text-gray-800">
-                    São Paulo, SP - Brasil
+                    Itu, SP - Brasil
                   </p>
                 </div>
               </div>
 
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-blue-500/20 rounded-full flex items-center justify-center">
-                  <Mail className="text-blue-400" />
+                  <a href="mailto:kayky.m.santana@gmail.com"><Mail className="text-blue-400" style={{cursor:"pointer"}}/></a>
                 </div>
                 <div>
                   <h4 className="font-semibold">Email</h4>

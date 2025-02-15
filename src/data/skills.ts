@@ -20,13 +20,14 @@ export const skillsData: SkillCategory[] = [
   {
     title: 'Backend',
     skills: [
-      { name: 'C#', level: 92 }
+      { name: 'C#', level: 95 },
+      { name: 'Node', level: 20 },
+      { name: 'Java', level: 20 },
     ],
   },
   {
     title: 'Ferramentas',
     skills: [
-      { name: 'GitHub', level: 90 },
       { name: 'Git', level: 85 },
       { name: 'EntityFramework', level: 70 },
     ],
@@ -35,8 +36,8 @@ export const skillsData: SkillCategory[] = [
     title: 'Soft Skills',
     skills: [
       { name: 'Trabalho em Equipe', level: 95 },
-      { name: 'Resolução de Problemas', level: 90 },
-      { name: 'Comunicação', level: 85 },
+      { name: 'Resolução de Problemas', level: 95 },
+      { name: 'Comunicação', level: 90 },
     ],
   },
 ];
