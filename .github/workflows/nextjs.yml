@@ -52,7 +52,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} run build
 
       - name: Fazer upload do artefato de construção
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./dist
 
