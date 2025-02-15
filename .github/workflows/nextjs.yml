@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do código
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Detectar gerenciador de pacotes
         id: detect-package-manager
@@ -52,7 +52,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} run build
 
       - name: Fazer upload do artefato de construção
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./dist
 
