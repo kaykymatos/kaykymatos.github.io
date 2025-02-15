@@ -39,7 +39,9 @@ export const Header = ({
   return (
     <header
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? "dark:bg-black/80 bg-black/40 backdrop-blur-md" : "bg-transparent"
+        isScrolled
+          ? "dark:bg-black/80 bg-black/40 backdrop-blur-md"
+          : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

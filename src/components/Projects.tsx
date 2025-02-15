@@ -1,5 +1,4 @@
 import { ExternalLink, Github as GithubIcon } from "lucide-react";
-import { useState } from "react";
 import eestockImage from "../assets/projects/eestock.png";
 import simulInvest from "../assets/projects/SimulInvestLogo.png";
 
@@ -25,14 +24,12 @@ const projects = [
 ];
 
 export const Projects = () => {
-  const [hoveredProject, setHoveredProject] = useState<number | null>(null);
-
   return (
     <section id="projetos" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center mb-12">
           <span className="bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-            Projetos em Destaque
+            Projetos
           </span>
         </h2>
 
@@ -41,8 +38,6 @@ export const Projects = () => {
             <div
               key={index}
               className="group relative rounded-xl overflow-hidden"
-              onMouseEnter={() => setHoveredProject(index)}
-              onMouseLeave={() => setHoveredProject(null)}
             >
               <div className="aspect-video relative">
                 <img

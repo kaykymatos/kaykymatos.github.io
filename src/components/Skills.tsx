@@ -24,7 +24,9 @@ export const Skills = () => {
                 ) : (
                   <Users className="text-purple-500" size={24} />
                 )}
-                <h3 className="text-xl font-bold text-dark">{category.title}</h3>
+                <h3 className="text-xl font-bold text-dark">
+                  {category.title}
+                </h3>
               </div>
               {category.skills.map((skill, skillIndex) => (
                 <SkillBar
