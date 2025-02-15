@@ -40,9 +40,9 @@ jobs:
           fi
 
       - name: Configurar Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v3  # Mantém a versão v3 ou a mais recente
         with:
-          node-version: "20"
+          node-version: "20" # Ou a versão que você precisa
           cache: ${{ steps.detect-package-manager.outputs.manager }}
 
       - name: Instalar dependências
@@ -52,7 +52,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} run build
 
       - name: Fazer upload do artefato de construção
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v2 # Mantém a versão v2 ou a mais recente
         with:
           path: ./dist
 
@@ -66,4 +66,6 @@ jobs:
     steps:
       - name: Fazer deploy no GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v2 # Mantém a versão v2 ou a mais recente
+        with:
+          artifact: dist # Nome do artefato que você fez upload no job de build
