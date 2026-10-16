@@ -29,11 +29,11 @@ export const Education = () => {
           </span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="mx-auto grid max-w-5xl grid-cols-1 md:grid-cols-2 gap-8">
           {education.map((item, index) => (
             <div
               key={index}
-              className="p-6 dark:bg-gray-900/50 bg-gray-300 backdrop-blur-lg rounded-xl border border-gray-800 hover:border-purple-500 transition-colors"
+              className="p-6 dark:bg-gray-900/50 bg-white/80 backdrop-blur-lg rounded-xl border border-gray-200 dark:border-gray-800 hover:border-purple-400 dark:hover:border-purple-500 transition-colors"
             >
               <div className="flex items-center gap-3 mb-4">
                 {item.type === "academic" ? (

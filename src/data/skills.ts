@@ -1,6 +1,5 @@
 export interface Skill {
   name: string;
-  level: number;
 }
 
 export interface SkillCategory {
@@ -12,32 +11,39 @@ export const skillsData: SkillCategory[] = [
   {
     title: 'Frontend',
     skills: [
-      { name: 'React + TypeScript', level: 90 },
-      { name: 'Angular + TypeScript', level: 85 },
-      { name: 'Bootstrap', level: 88 },
+      { name: 'React + TypeScript' },
+      { name: 'Angular + TypeScript' },
+      { name: 'Bootstrap' },
     ],
   },
   {
     title: 'Backend',
     skills: [
-      { name: 'C#', level: 95 },
-      { name: 'Node', level: 20 },
-      { name: 'Java', level: 20 },
+      { name: 'C#' },
+      { name: 'Node' },
+      { name: 'Java' },
     ],
   },
   {
     title: 'Ferramentas',
     skills: [
-      { name: 'Git', level: 85 },
-      { name: 'EntityFramework', level: 70 },
+      { name: 'Git' },
+      { name: 'EntityFramework' },
+    ],
+  },
+  {
+    title: 'Inteligência Artificial',
+    skills: [
+      { name: 'Agentes de IA' },
+      { name: 'Microsoft Foundry' },
     ],
   },
   {
     title: 'Soft Skills',
     skills: [
-      { name: 'Trabalho em Equipe', level: 95 },
-      { name: 'Resolução de Problemas', level: 95 },
-      { name: 'Comunicação', level: 90 },
+      { name: 'Trabalho em Equipe' },
+      { name: 'Resolução de Problemas' },
+      { name: 'Comunicação' },
     ],
   },
 ];

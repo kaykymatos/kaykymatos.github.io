@@ -12,19 +12,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kayky – Desenvolvedor Full Stack",
+  title: "Kayky – Analista de Sistemas Júnior | Back-end C#",
   description:
-    "Portfólio de um desenvolvedor full stack especializado em C#, Angular, React, Typescript e Java.",
+    "Portfólio de Kayky, Analista de Sistemas Júnior na CI&T com foco em desenvolvimento back-end com C# e estudando Inteligência Artificial.",
   keywords: [
     "C#",
-    " Angular",
+    "ASP.NET Core",
+    "Back-end",
+    "Inteligência Artificial",
+    "Analista de Sistemas",
+    "CI&T",
+    "Angular",
     "React",
     "Typescript",
     "Java",
-    "Desenvolvedor Full Stack",
     "Portfólio",
   ],
-  icons: "./favicon.ico",
+  icons: { icon: "/icon.svg" },
 };
 
 export default function RootLayout({
@@ -33,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

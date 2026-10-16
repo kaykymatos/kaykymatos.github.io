@@ -2,7 +2,22 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    period: "2022 - Atual",
+    period: "Julho de 2025 - Atual",
+    role: "Analista de Sistemas Júnior",
+    company: "CI&T",
+    description:
+      "Atuação no desenvolvimento e na manutenção de soluções back-end com C# e .NET, com foco em microsserviços e arquiteturas distribuídas. Implementação de soluções e funcionalidades alinhadas aos requisitos do negócio.",
+    achievements: [
+      "Desenvolvimento de aplicações back-end, microsserviços e APIs com C# e .NET",
+      "Implementação de comunicação assíncrona com RabbitMQ e cache distribuído com Redis",
+      "Containerização de aplicações com Docker",
+      "Aplicação dos princípios de Clean Architecture e SOLID",
+      "Desenvolvimento de testes unitários com xUnit",
+      "Versionamento de código com Git",
+    ],
+  },
+  {
+    period: "2022 - Julho de 2025",
     role: "Desenvolvedor Full Stack Junior",
     company: "Senior Sistemas S/A",
     description:
